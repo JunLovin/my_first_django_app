@@ -1,0 +1,12 @@
+{% extends 'myapp/base.html' %}
+
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'myapp/style.css' %}"/>
+{% endblock %}
+
+{% block content %}
+<h1 class="fortune-header">Fortune Cookie</h1>
+<p>{{ fortune }}</p>
+<a href="{% url 'home' %}" class="anchor">Regresar</a>
+{% endblock %}
