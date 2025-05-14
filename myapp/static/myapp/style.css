@@ -16,3 +16,28 @@ body {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p a {
+    color: white;
+}
+
+.fortune-header {
+    color: yellow;
+}
+
+.anchor {
+    color: white;
+    text-underline-offset: 3px;
+}
+
+.anchor:active {
+    color: gray;
+}
